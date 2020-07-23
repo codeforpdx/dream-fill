@@ -1,4 +1,4 @@
-# Dream Fill
+# Dreamfill
 ### #KeepTheKids
 A web tool to assist with filling out DACA paperwork. This is a Code for PDX project done in collaboration with [Portland Community College CLEAR Clinic](https://www.pcc.edu/clear-clinic/). See the problem description in our [wiki](/wiki).
 
