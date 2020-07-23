@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-script = "*"
+flask-bcrypt = "*"
+pyjwt = "*"
+python-dotenv = "*"
+dreamfill = {editable = true,path = "."}
+pytest = "*"
+requests-mock = "*"
+requests = "*"
+python-dateutil = "*"
+uwsgi = "*"
+cryptography = "*"
+dacite = "==1.0.2"
+mypy = "==0.740"
+pytest-lazy-fixture = "==0.6.2"
+hypothesis = "==4.50.8"
+beautifulsoup4 = "==4.8.1"
+ipdb = "==0.13.2"
+markdown2 = "==2.3.9"
+pdfkit = "==0.6.1"
+pytest-cov = "==2.10.0"
+pdfrw = "==0.4"
+
+[dev-packages]
+pipenv-setup = "*"
+
+[requires]
+python_version = "3.8"
