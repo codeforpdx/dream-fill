@@ -60,7 +60,7 @@ You can get your dev environment up and running with installing only Docker and 
 
 ## Running the docker stack
 
-In the project's root directory, run `make new`. This pulls the dev-tagged "expungeservice" image and launches the containers using docker-compose. Start and stop the running stack with `make up` and `make down`.
+In the project's root directory, run `make up`. This launches the containers (and first builds the backend custom image if it doesn't exist yet) using docker-compose. Start and stop the running stack with `make up` and `make down`.
 
 After this target completes, you can navigate to [http://localhost:3000](http://localhost:3000) in the browser and connect to the React dev server with full hot-module reloading. This may take a minute or two to come up before it is available while it installs node modules. Check the service with `make frontend_logs`.
 
